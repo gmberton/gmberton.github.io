@@ -1,28 +1,56 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+---
+layout: default
+---
+
+<div class="bio">
+  <p class="about-img"><img src="{{ site.avatar }}" alt="Fabio Cermelli" /></p>
+
+  <p>Hi, I’m Fabio and I'm a never-ending learner, especially interested in
+    deep learning and computer vision. <br>
+
+    I'm a third year PhD student of the <a href="http://vandal.polito.it">VANDAL (Visual AND Multimodal Applied Learning)</a>
+    laboratory at <a href="https://www.polito.it">Politecnico di Torino
+    (Italy)</a>, in collaboration with <a href="https://www.iit.it">Italian Institute of
+    Technology</a>, supervised by prof. Barbara Caputo. Moreover, in the past, I strictly collaborated with
+    <a href="https://mancinimassimiliano.github.io/">Massimiliano Mancini</a>.
+
+    The main goal of my research is to enable neural networks to increase their
+    knowledge over time. In addition, I believe that the future of deep learning
+    is toward reducing human supervision. For this reason, I'm also focusing on
+    weakly-supervised semantic segmentation.
+  </p>
+
+
+  <p><a href="https://github.com/fcdl94/fcdl94.github.io/raw/master/resources/cv.pdf">CV</a> /
+    <a href="https://scholar.google.it/citations?hl=it&user=-fEOFbMAAAAJ">Google Scholar</a> /
+    <a href="mailto:fabio.cermelli@polito.it">Email</a>
+  </p>
+
+</div>
+
+
+<div class="papers">
+  <h2>Publications</h2>
+  {% assign papers = site.papers | reverse %}
+  {% for paper in papers %}
+    <article class="paper">
+
+      <p><a href="{{ paper.link }}"><b>{{ paper.title }}</b></a>, <br>
+      {{ paper.authors }},<br>
+      {{ paper.conference }}<br>
+        <a href="{{ paper.url }}">Bib file</a>
+        {% if paper.arxiv %}
+        / <a href="{{ paper.arxiv }}">Arxiv</a>
+        {% endif %}
+        {% if paper.code %}
+        / <a href="{{ paper.code }}">Code</a>
+        {% endif %}
+        {% if paper.website %}
+        / <a href="{{ paper.website }}">Website</a>
+        {% endif %}
+      </p>
+    </article>
+  {% endfor %}
+
+  <p><a href="{{ site.baseurl }}/bib">Full bib file.</a></p>
+</div>
