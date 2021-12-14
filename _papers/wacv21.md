@@ -11,7 +11,7 @@ tag: Berton_WACV_2021
 @inProceedings{Berton_WACV_2021,  
     author    = {Berton, Gabriele and Paolicelli, Valerio and Masone, Carlo and Caputo, Barbara},
     title     = {Adaptive-Attentive Geolocalization From Few Queries: A Hybrid Approach},
-    booktitle = WACV,
+    booktitle = {WACV},
     month     = {January},
     year      = {2021},
     pages     = {2918-2927}
