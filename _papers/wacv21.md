@@ -1,18 +1,16 @@
 ---
-title: Viewpoint Invariant Dense Matching for Visual Geolocalization
-authors: Gabriele Berton, Carlo Masone, Valerio Paolicelli, Barbara Caputo
-arxiv: https://arxiv.org/abs/2109.09827
-link: https://arxiv.org/abs/2109.09827
-code: https://github.com/gmberton/geo_warp
-conference: ICCV 2021, October, Montreal (Canada).
-date: 2021-10-01
-tag: Berton_ICCV_2021
+title: Pixel-by-Pixel Cross-Domain Alignment for Few-Shot Semantic Segmentation
+authors: Antonio Tavera, Fabio Cermelli, Carlo Masone, Barbara Caputo
+code: https://github.com/fcdl94/FSS
+date: 2022-01-01
+conference: Winter Conference on Applications of Computer Vision, January 2022, Hawaii (USA).
+tag: cermelli2021prototype
 ---
-@inProceedings{Berton_ICCV_2021,  
-    author    = {Berton, Gabriele and Masone, Carlo and Paolicelli, Valerio and Caputo, Barbara},
-    title     = {Viewpoint Invariant Dense Matching for Visual Geolocalization},
-    booktitle = ICCV,
-    month     = {October},
-    year      = {2021},
-    pages     = {12169-12178}
+@inProceedings{tavera2022Pixel,  
+ author = {Tavera, Antonio and Cermelli, Fabio and Masone, Carlo and Caputo,
+    Barbara},  
+ title  = {Pixel-by-Pixel Cross-Domain Alignment for Few-Shot Semantic Segmentation},  
+ booktitle = {Winter Conference on Applications of Computer Vision},  
+ year      = {2022},  
+ month     = {January}  
 }
