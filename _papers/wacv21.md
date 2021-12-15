@@ -1,16 +1,18 @@
 ---
 title: Pixel-by-Pixel Cross-Domain Alignment for Few-Shot Semantic Segmentation
-authors: Antonio Tavera, Fabio Cermelli, Carlo Masone, Barbara Caputo
-code: https://github.com/fcdl94/FSS
-date: 2022-01-01
-conference: Winter Conference on Applications of Computer Vision, January 2022, Hawaii (USA).
-tag: cermelli2021prototype
+authors: Gabriele Berton, Valerio Paolicelli, Carlo Masone, Barbara Caputo
+arxiv: https://arxiv.org/abs/2010.06897
+link: https://arxiv.org/abs/2010.06897
+code: https://github.com/valeriopaolicelli/adageo-WACV2021
+conference: WACV 2021, January 2021, Hawaii (USA).
+date: 2021-01-01
+tag: Berton_WACV_2021
 ---
-@inProceedings{tavera2022Pixel,  
- author = {Tavera, Antonio and Cermelli, Fabio and Masone, Carlo and Caputo,
-    Barbara},  
- title  = {Pixel-by-Pixel Cross-Domain Alignment for Few-Shot Semantic Segmentation},  
- booktitle = {Winter Conference on Applications of Computer Vision},  
- year      = {2022},  
- month     = {January}  
+@inProceedings{Berton_WACV_2021,  
+    author    = {Berton, Gabriele and Paolicelli, Valerio and Masone, Carlo and Caputo, Barbara},
+    title     = {Adaptive-Attentive Geolocalization From Few Queries: A Hybrid Approach},
+    booktitle = {WACV},
+    month     = {January},
+    year      = {2021},
+    pages     = {2918-2927}
 }
