@@ -1,5 +1,5 @@
 ---
-title: Pixel-by-Pixel Cross-Domain Alignment for Few-Shot Semantic Segmentation
+title: Adaptive-Attentive Geolocalization from few queries\: a hybrid approach
 authors: Gabriele Berton, Valerio Paolicelli, Carlo Masone, Barbara Caputo
 arxiv: https://arxiv.org/abs/2010.06897
 link: https://arxiv.org/abs/2010.06897
