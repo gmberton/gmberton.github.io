@@ -1,6 +1,6 @@
 ---
 title: Deep Visual Geo-localization Benchmark
-authors: Berton, Gabriele and Mereu, Riccardo and Trivigno, Gabriele and Masone, Carlo and Csurka, Gabriela and Sattler, Torsten and Caputo, Barbara
+authors: Gabriele Berton, Riccardo Mereu, Gabriele Trivigno, Carlo Masone, Gabriela Csurka, Torsten Sattler, Barbara Caputo
 arxiv: 
 link: 
 code: https://github.com/gmberton/deep-visual-geo-localization-benchmark
