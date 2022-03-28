@@ -8,7 +8,7 @@ conference: WACV 2021, January 2021, Hawaii (USA).
 date: 2021-01-01
 tag: Berton_WACV_2021
 ---
-@inProceedings{Berton_WACV_2021,  
+@inProceedings{Berton_WACV_2021,
     author    = {Berton, Gabriele and Paolicelli, Valerio and Masone, Carlo and Caputo, Barbara},
     title     = {Adaptive-Attentive Geolocalization From Few Queries: A Hybrid Approach},
     booktitle = {WACV},
