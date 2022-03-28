@@ -1,6 +1,6 @@
 ---
 title: Rethinking Visual Geo-localization for Large-Scale Applications
-authors: Berton, Gabriele and Masone, Carlo and Caputo, Barbara
+authors: Gabriele Berton, Carlo Masone, Barbara Caputo
 arxiv: 
 link: 
 code: https://github.com/gmberton/cosPlace
