@@ -4,7 +4,7 @@ authors: Gabriele Berton, Riccardo Mereu, Gabriele Trivigno, Carlo Masone, Gabri
 arxiv: 
 link: 
 code: https://github.com/gmberton/deep-visual-geo-localization-benchmark
-conference: CVPR 2022, June, New Orleans (USA).
+conference: CVPR 2022 (ORAL!), New Orleans (USA).
 date: 2022-06-01
 tag: Berton_CVPR_2022_benchmark
 ---
