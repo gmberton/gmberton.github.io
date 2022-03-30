@@ -4,7 +4,7 @@ authors: Gabriele Berton, Carlo Masone, Barbara Caputo
 arxiv: 
 link: 
 code: https://github.com/gmberton/cosPlace
-conference: CVPR 2022, June, New Orleans (USA).
+conference: CVPR 2022, New Orleans (USA).
 date: 2022-06-01
 tag: Berton_CVPR_2022_cosPlace
 ---

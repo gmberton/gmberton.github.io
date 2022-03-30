@@ -1,10 +1,10 @@
 ---
 title: "Adaptive-Attentive Geolocalization from few queries: a hybrid approach"
-authors: Gabriele Berton, Valerio Paolicelli, Carlo Masone, Barbara Caputo
+authors: Gabriele Berton*, Valerio Paolicelli*, Carlo Masone, Barbara Caputo
 arxiv: https://arxiv.org/abs/2010.06897
 link: https://arxiv.org/abs/2010.06897
 code: https://github.com/valeriopaolicelli/adageo-WACV2021
-conference: WACV 2021, January 2021, Hawaii (USA).
+conference: WACV 2021, Hawaii (USA).
 date: 2021-01-01
 tag: Berton_WACV_2021
 ---
