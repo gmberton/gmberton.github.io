@@ -1,5 +1,5 @@
 ---
-title: BBB Rethinking Visual Geo-localization for Large-Scale Applications
+title: CCC Rethinking Visual Geo-localization for Large-Scale Applications
 authors: Gabriele Berton, Carlo Masone, Barbara Caputo
 arxiv: 
 link: 
