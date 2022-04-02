@@ -15,5 +15,4 @@ tag: Berton_CVPR_2022_benchmark
     booktitle = {CVPR},
     month     = {June},
     year      = {2022},
-    pages     = {12169-12178}
 }
