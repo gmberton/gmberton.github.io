@@ -4,7 +4,7 @@ authors: Gabriele Berton, Carlo Masone, Barbara Caputo
 arxiv: 
 link: 
 code: https://github.com/gmberton/cosPlace
-conference: CVPR 2022, New Orleans (USA).
+conference: ICCV 2021, Montreal (Canada).
 date: 2021-10-01
 tag: Berton_ICCV_2021
 ---
