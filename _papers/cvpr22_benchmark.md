@@ -1,10 +1,10 @@
 ---
-title: B Viewpoint Invariant Dense Matching for Visual Geolocalization
+title: Deep Visual Geo-localization Benchmark
 authors: Gabriele Berton, Riccardo Mereu, Gabriele Trivigno, Carlo Masone, Gabriela Csurka, Torsten Sattler, Barbara Caputo
-arxiv: https://arxiv.org/abs/2109.09827
-code: https://github.com/gmberton/geo_warp
-conference: ICCV 2021, Montreal (Canada).
-date: 2021-10-01
+website: https://deep-vg-bench.herokuapp.com/
+code: https://github.com/gmberton/deep-visual-geo-localization-benchmark
+conference: CVPR 2022 (ORAL!), New Orleans (USA).
+date: 2021-06-01
 tag: Berton_CVPR_2022_benchmark
 ---
 @inProceedings{Berton_CVPR_2022_benchmark,
