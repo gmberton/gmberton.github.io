@@ -1,16 +1,17 @@
 ---
-title: A Rethinking Visual Geo
-authors: Gabriele Berton, Carlo Masone, Valerio Paolicelli, Barbara Caputo
-arxiv: https://arxiv.org/abs/2109.09827
-code: https://github.com/gmberton/cosPlace
-conference: ICCV 2021, Montreal (Canada).
-date: 2021-10-01
-tag: Berton_CVPR_2022_cosPlace
+title: Deep Visual Geo-localization Benchmark
+authors: Gabriele Berton, Riccardo Mereu, Gabriele Trivigno, Carlo Masone, Gabriela Csurka, Torsten Sattler, Barbara Caputo
+website: https://deep-vg-bench.herokuapp.com/
+code: https://github.com/gmberton/deep-visual-geo-localization-benchmark
+conference: CVPR 2022 (ORAL!), New Orleans (USA).
+date: 2021-06-01
+tag: Berton_CVPR_2022_benchmark
 ---
-@inProceedings{Berton_CVPR_2022_cosPlace,
-    author    = {Berton, Gabriele and Masone, Carlo and Caputo, Barbara},
-    title     = {Rethinking Visual Geo-localization for Large-Scale Applications},
+@inProceedings{Berton_CVPR_2022_benchmark,
+    author    = {Berton, Gabriele and Mereu, Riccardo and Trivigno, Gabriele and Masone, Carlo and Csurka, Gabriela and Sattler, Torsten and Caputo, Barbara},
+    title     = {Deep Visual Geo-localization Benchmark},
     booktitle = {CVPR},
     month     = {June},
     year      = {2022},
 }
+
