@@ -1,7 +1,6 @@
 ---
-title: X Rethinking Visual Geo
+title: B Rethinking Visual Geo
 authors: Gabriele Berton, Carlo Masone, Valerio Paolicelli, Barbara Caputo
-arxiv: https://arxiv.org/abs/2109.09827
 link: https://arxiv.org/abs/2109.09827
 code: https://github.com/gmberton/cosPlace
 conference: ICCV 2021, Montreal (Canada).
