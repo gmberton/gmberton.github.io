@@ -1,5 +1,5 @@
 ---
-title: Y Rethinking Visual Geo
+title: B Rethinking Visual Geo
 authors: Gabriele Berton, Carlo Masone, Valerio Paolicelli, Barbara Caputo
 link: https://arxiv.org/abs/2109.09827
 code: https://github.com/gmberton/cosPlace
