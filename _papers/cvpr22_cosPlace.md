@@ -1,9 +1,9 @@
 ---
-title: EEE Rethinking Visual Geo
+title: X Rethinking Visual Geo
 authors: Gabriele Berton, Carlo Masone, Valerio Paolicelli, Barbara Caputo
 arxiv: https://arxiv.org/abs/2109.09827
 link: https://arxiv.org/abs/2109.09827
-code: https://github.com/gmberton/geo_warp
+code: https://github.com/gmberton/cosPlace
 conference: ICCV 2021, Montreal (Canada).
 date: 2021-10-01
 tag: Berton_CVPR_2022_cosPlace
