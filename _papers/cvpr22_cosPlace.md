@@ -1,5 +1,5 @@
 ---
-title: C Rethinking Visual Geo
+title: CDD Rethinking Visual Geo
 authors: Gabriele Berton, Carlo Masone, Barbara Caputo
 arxiv: https://arxiv.org/abs/2109.09827
 link: https://arxiv.org/abs/2109.09827
