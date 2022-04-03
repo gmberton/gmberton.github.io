@@ -4,7 +4,7 @@ authors: Gabriele Berton, Carlo Masone, Valerio Paolicelli, Barbara Caputo
 arxiv: https://arxiv.org/abs/2109.09827
 code: https://github.com/gmberton/cosPlace
 conference: ICCV 2021, Montreal (Canada).
-date: 2022-06-01
+date: 2021-10-01
 tag: Berton_CVPR_2022_cosPlace
 ---
 @inProceedings{Berton_CVPR_2022_cosPlace,
