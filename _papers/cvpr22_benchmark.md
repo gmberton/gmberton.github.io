@@ -1,9 +1,11 @@
 ---
-title: A Rethinking Visual Geo-localization for Large-Scale Applications
-authors: Gabriele Berton, Carlo Masone, Barbara Caputo
-code: https://github.com/gmberton/cosPlace
-conference: CVPR 2022, New Orleans (USA).
-date: 2022-06-01
+title: B Viewpoint Invariant Dense Matching for Visual Geolocalization
+authors: Gabriele Berton, Carlo Masone, Valerio Paolicelli, Barbara Caputo
+arxiv: https://arxiv.org/abs/2109.09827
+link: https://arxiv.org/abs/2109.09827
+code: https://github.com/gmberton/geo_warp
+conference: ICCV 2021, Montreal (Canada).
+date: 2021-10-01
 tag: Berton_CVPR_2022_benchmark
 ---
 @inProceedings{Berton_CVPR_2022_benchmark,
