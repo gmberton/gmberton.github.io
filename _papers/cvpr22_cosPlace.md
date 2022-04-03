@@ -1,5 +1,5 @@
 ---
-title: X Rethinking Visual Geo
+title: A Rethinking Visual Geo
 authors: Gabriele Berton, Carlo Masone, Valerio Paolicelli, Barbara Caputo
 arxiv: https://arxiv.org/abs/2109.09827
 code: https://github.com/gmberton/cosPlace
