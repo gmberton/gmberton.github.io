@@ -1,6 +1,7 @@
 ---
 title: Deep Visual Geo-localization Benchmark
 authors: Gabriele Berton, Riccardo Mereu, Gabriele Trivigno, Carlo Masone, Gabriela Csurka, Torsten Sattler, Barbara Caputo
+arxiv: https://arxiv.org/abs/2204.03444
 website: https://deep-vg-bench.herokuapp.com/
 code: https://github.com/gmberton/deep-visual-geo-localization-benchmark
 conference: CVPR 2022 (ORAL!), New Orleans (USA).

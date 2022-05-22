@@ -1,6 +1,8 @@
 ---
 title: Rethinking Visual Geo-localization for Large-Scale Applications
 authors: Gabriele Berton, Carlo Masone, Barbara Caputo
+arxiv: https://arxiv.org/abs/2204.02287
+link: https://arxiv.org/abs/2204.02287
 code: https://github.com/gmberton/cosPlace
 conference: CVPR 2022, New Orleans (USA).
 date: 2022-01-01
