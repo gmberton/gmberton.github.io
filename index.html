@@ -1,44 +1,271 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
 
-<div class="bio">
-  <p class="about-img"><img src="{{ site.avatar }}" alt="Gabriele Berton" /></p>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113230407-1"></script>
+<script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  <p>Skilled researcher and developer, always ready to take on ambitious challenges. I’m constantly looking for innovative solutions to real-world problems, which leads me to simultaneously publish in the world’s top conferences and solve complex tasks, while keeping an eye on computational complexity and resources availability.<br></p>
-  <p>To do my best in fighting the ongoing replication crisis, I provide open-source code for all my projects / papers, and I always make sure that results are easy to reproduce and are averaged over multiple runs.<br></p>
+      gtag('config', 'UA-113230407-1');
+    </script>
+<title>Gabriele Berton</title>
+<meta name="description" content="Gabriele Berton: PhD student in Computer Vision at the Polytechnic of Turin.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style/index.css" />
+</head>
+<body>
+<section class="container-fluid me-background">
+<div class="container-center pt-2">
+<div class="float-left pr-5 pb-3">
+<img class="me-image" alt="profile photo" src="assets/profile.png">
+</div>
+<h1>Gabriele Berton</h1>
+<p>
+<a href="mailto:berton.gabri@gmail.com">EMAIL</a> |
+<a target="_blank" href="assets/resume.pdf">RÉSUMÉ</a> |
+<a target="_blank" href="https://www.linkedin.com/in/gabriele-berton-781623180/">LINKEDIN</a> |
+<a target="_blank" href="https://github.com/gmberton">GITHUB</a> |
+<a target="_blank" href="https://twitter.com/gabriberton">TWITTER</a> |
+<a target="_blank" href="https://scholar.google.com/citations?user=pc_rMSMAAAAJ">SCHOLAR</a>
+</p>
+<p class="me-subtitle">
+PhD student in the
+<a target="_blank" href="http://vandal.polito.it/">VANDAL lab</a>
+at <a target="_blank" href="https://www.polito.it/en">Polytechnic of Turin</a>.
+</p>
+<p>
+I started my PhD in November 2021 under the supervision of <a href="https://scholar.google.com/citations?user=mHbdIAwAAAAJ&hl=en">Prof. Barbara Caputo</a>, working on large scale visual geolocalization and image retrieval.
+I have previously worked as an Applied Scientist Intern at Amazon (2022), an Applied Scientist at the <a href="https://www.iit.it/en-US/">Italian Institute of Technology</a> (2020/2021), and as a Software Engineer at <a href="https://www.linkedin.com/company/consoft-sistemi---alten-italia/about/">Consoft</a> (now <a href="https://www.alten.com/">Alten</a>) (2017/2018).
+<br>
+I’m constantly looking for innovative solutions to real-world problems, which leads me to simultaneously publish in the world’s top conferences and develop efficient software, while keeping an eye on computational complexity and resources availability.
+</p>
+</div>
+</section>
+<div class="container-fluid container-center container-main">
+<section class="mb-4">
+<h3>News</h3>
+<div class="limit-items">
 
-  <p>
-    <a href="https://raw.githubusercontent.com/gmberton/gmberton.github.io/master/resources/CV.pdf">CV</a> /
-    <a href="https://scholar.google.com/citations?user=pc_rMSMAAAAJ">Google Scholar</a> /
-    <a href="mailto:berton.gabri@gmail.com">Email</a>
-  </p>
+<input type="checkbox" id="show-all">
+<label for="show-all" class="text-show">↓ SHOW MORE ↓</label>
+<label for="show-all" class="text-hide">↑ HIDE ↑</label>
 
+<div class="items">
+<table class="news-table">
+<tbody>
+
+<tr>
+<td class="news-date">06/2023:</td>
+<td class="news-text">
+I'm giving a 30 minutes talk at CVPR 2023 for the tutorial <a href="https://www.sri.com/computer-vision/cvpr-2023-a-comprehensive-tour-and-recent-advancements-toward-real-world-visual-geo-localization/">A Comprehensive Tour and Recent Advancements toward Real-world Visual Geo-Localization.</a>
+</td>
+</tr>
+
+<tr>
+<td class="news-date">06/2023:</td>
+<td class="news-text">
+Our demo on using 3D models for geolocalizing images has been accepted to ICCV 2023!
+</td>
+</tr>
+
+<tr>
+<td class="news-date">05/2023:</td>
+<td class="news-text">
+I gave at talk at <a href="https://malga.unige.it/">MaLGa</a> on the current state of visual place recognition.
+</td>
+</tr>
+
+<tr>
+<td class="news-date">04/2023:</td>
+<td class="news-text">
+<a href="https://arxiv.org/abs/2304.05887">Our paper</a> on local features and re-ranking methods for Visual Place Recognition has been accepted to the <a href="https://image-matching-workshop.github.io/">Image Matching Workshop at CVPR 2023</a>
+</td>
+</tr>
+
+<tr>
+<td class="news-date">06/2022:</td>
+<td class="news-text">
+I gave an Oral presentation at CVPR for our <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Berton_Deep_Visual_Geo-Localization_Benchmark_CVPR_2022_paper.html">Deep Visual Geo-localization Benchmark paper</a>
+</td>
+</tr>
+
+<tr>
+<td class="news-date">06/2022:</td>
+<td class="news-text">
+One paper on <a href="https://arxiv.org/abs/2207.03868">Sequence-based Visual Place Recognition</a> accepted to IROS!
+</td>
+</tr>
+
+<tr>
+<td class="news-date">06/2022:</td>
+<td class="news-text">
+The <a href="https://www.teamroboto.it">RoboTo robotics team</a> (for which I'm doing the computer vision / object detection part) qualified for the finals of the <a href="https://www.robomasterna.com/">Robomaster University League</a> in Texas!
+</td>
+</tr>
+
+<tr>
+<td class="news-date">05/2022:</td>
+<td class="news-text">
+I started a 4 months internship at Amazon Berlin as an Applied Scientist Intern, working on multi-model video action recognition and segmentation.
+</td>
+</tr>
+
+<tr>
+<td class="news-date">03/2022:</td>
+<td class="news-text">
+Two first-author papers accepted to CVPR 2022! <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Berton_Rethinking_Visual_Geo-Localization_for_Large-Scale_Applications_CVPR_2022_paper.html">One paper</a> presenting a SOTA geolocalization / visual place recognition method called CosPlace, and <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Berton_Deep_Visual_Geo-Localization_Benchmark_CVPR_2022_paper.html">one Oral paper</a> presenting a thorough benchmark on the same task.
+</td>
+</tr>
+
+<tr>
+<td class="news-date">07/2021:</td>
+<td class="news-text">
+<a href="https://openaccess.thecvf.com/content/ICCV2021/html/Berton_Viewpoint_Invariant_Dense_Matching_for_Visual_Geolocalization_ICCV_2021_paper.html">Our paper</a> on "Viewpoint Invariant Dense Matching for Visual Geolocalization" was accepted to ICCV 2021!
+</td>
+</tr>
+
+<tr>
+<td class="news-date">10/2020:</td>
+<td class="news-text">
+<a href="https://openaccess.thecvf.com/content/WACV2021/html/Berton_Adaptive-Attentive_Geolocalization_From_Few_Queries_A_Hybrid_Approach_WACV_2021_paper.html">Our paper</a> on Domain Adaptation for Geolocalization accepted at WACV 2021!
+</td>
+</tr>
+
+</tbody></table>
+</div>
+</div>
+</section>
+<section class="mb-5">
+<h3 class="pb-2">Selected Publications (first author at top conferences)</h3>
+
+<div class="row align-items-center pb-4">
+<div class="col-sm-3 pub-image-cell">
+<a target="_blank" href="cosplace">
+<img class="img-fluid pub-image" alt="CosPlace" src="assets/cosplace.png" style="padding-left:0%;padding-right:0%"></a>
+</div>
+<div class="col-sm-9 py-3">
+<p class="pub-text-title pub-text-p">Rethinking Visual Geo-localization for Large-Scale Applications</p>
+<p class="pub-text-authors pub-text-p">
+<b class="myname">Gabriele Berton</b>, Carlo Masone, Barbara Caputo</p>
+<p class="pub-text-p">CVPR 2022</p>
+<a target="_blank" href="https://arxiv.org/abs/2204.02287">ArXiv</a> |
+<a target="_blank" href="https://openaccess.thecvf.com/content/CVPR2022/html/Berton_Rethinking_Visual_Geo-Localization_for_Large-Scale_Applications_CVPR_2022_paper.html">Proceedings</a> |
+<a target="_blank" href="https://github.com/gmberton/cosPlace">Code</a> |
+<a data-target="#bibcvpr2022_cosplace" data-toggle="collapse">Bibtex</a>
+<div class="collapse out" id="bibcvpr2022_cosplace">
+<div class="card card-body bibtex">
+<pre>@inProceedings{Berton_CVPR_2022_cosPlace,
+  author = {Gabriele Berton, Carlo Masone, Barbara Caputo},
+  title = {Rethinking Visual Geo-localization for Large-Scale Applications},
+  booktitle = {CVPR},
+  month = {June},
+  year = {2022},
+}
+</pre>
+</div>
+</div>
+</div>
 </div>
 
-
-<div class="papers">
-  <h2>Selected Publications (first author at top conferences)</h2>
-  {% assign papers = site.papers | reverse %}
-  {% for paper in papers %}
-    <article class="paper">
-
-      <p><a href="{{ paper.link }}"><b>{{ paper.title }}</b></a>, <br>
-      {{ paper.authors }},<br>
-      {{ paper.conference }}<br>
-        <a href="{{ paper.url }}">Bib file</a>
-        {% if paper.arxiv %}
-        / <a href="{{ paper.arxiv }}">Arxiv</a>
-        {% endif %}
-        {% if paper.code %}
-        / <a href="{{ paper.code }}">Code</a>
-        {% endif %}
-        {% if paper.website %}
-        / <a href="{{ paper.website }}">Website</a>
-        {% endif %}
-      </p>
-    </article>
-  {% endfor %}
-
-  <p><a href="{{ site.baseurl }}/bib">Full bib file.</a></p>
+<div class="row align-items-center pb-4">
+<div class="col-sm-3 pub-image-cell">
+<a target="_blank" href="vg_system">
+<img class="img-fluid pub-image" alt="VGBenchmark" src="assets/vg_system.png" style="padding-left:0%;padding-right:0%"></a>
 </div>
+<div class="col-sm-9 py-3">
+<p class="pub-text-title pub-text-p">Deep Visual Geo-localization Benchmark</p>
+<p class="pub-text-authors pub-text-p">
+<b class="myname">Gabriele Berton</b>, Riccardo Mereu, Gabriele Trivigno, Carlo Masone, Gabriela Csurka, Torsten Sattler, Barbara Caputo</p>
+<p class="pub-text-p">CVPR 2022 (Oral)</p>
+<a target="_blank" href="https://arxiv.org/abs/2204.03444">ArXiv</a> |
+<a target="_blank" href="https://openaccess.thecvf.com/content/CVPR2022/html/Berton_Deep_Visual_Geo-Localization_Benchmark_CVPR_2022_paper.html">Proceedings</a> |
+<a target="_blank" href="https://github.com/gmberton/deep-visual-geo-localization-benchmark">Code</a> |
+<a data-target="#bibcvpr2022_benchmark" data-toggle="collapse">Bibtex</a>
+<div class="collapse out" id="bibcvpr2022_benchmark">
+<div class="card card-body bibtex">
+<pre>@inProceedings{Berton_CVPR_2022_benchmark,
+  author = {Gabriele Berton, Riccardo Mereu, Gabriele Trivigno, Carlo Masone, Gabriela Csurka, Torsten Sattler, Barbara Caputo},
+  title = {Deep Visual Geo-localization Benchmark},
+  booktitle = {CVPR},
+  month = {June},
+  year = {2022},
+}
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row align-items-center pb-4">
+<div class="col-sm-3 pub-image-cell">
+<a target="_blank" href="geo_warp">
+<img class="img-fluid pub-image" alt="GeoWarp" src="assets/geo_warp.jpg" style="padding-left:0%;padding-right:0%"></a>
+</div>
+<div class="col-sm-9 py-3">
+<p class="pub-text-title pub-text-p">Viewpoint Invariant Dense Matching for Visual Geolocalization</p>
+<p class="pub-text-authors pub-text-p">
+<b class="myname">Gabriele Berton</b>, Carlo Masone, Valerio Paolicelli, Barbara Caputo</p>
+<p class="pub-text-p">ICCV 2021</p>
+<a target="_blank" href="https://arxiv.org/abs/2109.09827">ArXiv</a> |
+<a target="_blank" href="https://openaccess.thecvf.com/content/ICCV2021/html/Berton_Viewpoint_Invariant_Dense_Matching_for_Visual_Geolocalization_ICCV_2021_paper.html">Proceedings</a> |
+<a target="_blank" href="https://github.com/gmberton/geo_warp">Code</a> |
+<a data-target="#bibiccv2021_GeoWarp" data-toggle="collapse">Bibtex</a>
+<div class="collapse out" id="bibiccv2021_GeoWarp">
+<div class="card card-body bibtex">
+<pre>@inProceedings{Berton_ICCV_2021,
+  author = {Gabriele Berton, Carlo Masone, Valerio Paolicelli, Barbara Caputo},
+  title = {Viewpoint Invariant Dense Matching for Visual Geolocalization},
+  booktitle = {ICCV},
+  month = {October}, 
+ year = {2021},
+ pages = {12169-12178}
+}
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+<div class="row align-items-center pb-4">
+<div class="col-sm-3 pub-image-cell">
+<a target="_blank" href="orienternet">
+<img class="img-fluid pub-image" alt="GeoWarp" src="assets/adageo.jpg" style="padding-left:0%;padding-right:0%"></a>
+</div>
+<div class="col-sm-9 py-3">
+<p class="pub-text-title pub-text-p">Adaptive-Attentive Geolocalization From Few Queries: A Hybrid Approach</p>
+<p class="pub-text-authors pub-text-p">
+<b class="myname">Gabriele Berton*</b>, Valerio Paolicelli*, Carlo Masone, Barbara Caputo</p>
+<p class="pub-text-p">WACV 2021</p>
+<a target="_blank" href="https://arxiv.org/abs/2010.06897">ArXiv</a> |
+<a target="_blank" href="https://openaccess.thecvf.com/content/WACV2021/html/Berton_Adaptive-Attentive_Geolocalization_From_Few_Queries_A_Hybrid_Approach_WACV_2021_paper.html">Proceedings</a> |
+<a target="_blank" href="https://github.com/valeriopaolicelli/adageo-pytorch">Code</a> |
+<a data-target="#bibwacv2021_adageo" data-toggle="collapse">Bibtex</a>
+<div class="collapse out" id="bibwacv2021_adageo">
+<div class="card card-body bibtex">
+<pre>@inProceedings{Berton_WACV_2021,
+  author = {Gabriele Berton, Valerio Paolicelli, Carlo Masone, Barbara Caputo},
+  title = {Adaptive-Attentive Geolocalization From Few Queries: A Hybrid Approach},
+  booktitle = {WACV},
+  month = {January},
+  year = {2021},
+  pages = {2918-2927}
+}
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<footer>Template kindly provided by <a href="https://psarlin.com/">Paul-Edouard Sarlin</a></footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
